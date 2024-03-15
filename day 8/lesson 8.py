@@ -4,5 +4,3 @@ sport = int(input("enter your sport greade: "))
   
 
 print((math + english + sport)/3)
-
-
