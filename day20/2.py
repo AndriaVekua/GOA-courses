@@ -1,15 +1,13 @@
-
-# მომხმარებელს შევყვანით რიცხვი
+# რიცხვის შეყვანა
 number = int(input("შეიყვანეთ რიცხვი: "))
 
-# საშუალო რიცხვის გათვლა
-sum_of_numbers = 0
-
-# for loop-ით დავბეჭდოთ რიცხვები 1-დან number-მდე და დავამატოთ მათი ჯამი
+# რიცხვების ჯამი და საშუალო არითმეტიკული
+total = 0
 for i in range(1, number + 1):
-    print(i)
-    sum_of_numbers += i
+    total += i
 
-# რიცხვების ჯამის და საშუალო არითმეტიკულის გამოტანა
-print("რიცხვების ჯამი:", sum_of_numbers)
-print("საშუალო არითმეტიკული:", sum_of_numbers / number)
+average = total / number
+
+# შედეგის დაბეჭდვა
+print("რიცხვების ჯამი:", total)
+print("საშუალო არითმეტიკული:", average)
